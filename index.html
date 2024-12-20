@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>MinhOmachii - Official Portfolio Page</title>
+  <meta name="description" content="MinhOmachii - Official Portfolio Page" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="/assets/Không Có Tiêu Đề23_20241130170020.png"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">MinhOmachii</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="/index.html"> Trang chủ </a></li>
+        <li class="main-header__navigation-link"><a href="/index.html#about"> Về tôi </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Những gì mình đã làm </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Liên hệ </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+t <a class="main-header__sm-menu-link main-header__sm-menu-link--1" href="index.html">Trang chủ</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about" href="/index.html#about">Về tôi</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects" href="./index.html#projects">Những gì mình đã làm</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact" href="./index.html#contact" >Liên hệ</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
+  </header>
+
+  <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div>
+  <!---->
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hellooooooo 👋</span>
+          <span class="heading-primary__main">
+            Mình là Cao Nguyễn Gia Lập (a.k.a MinhOmachii)
+            Editor - Coder
+          </span>
+        </h1>
+        <button class="btn btn-theme home-hero__btn-theme" onclick="window.location.href='index.html#projects';">Bấm vào đây để xem những gì mình đã làm nèe</button>
+        <button class="btn btn-inv home-hero__btn-theme" onclick="window.location.href='index.html#contact';">Alo tui tại đây</button>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Về mình 🦄</span>
+        <span class="heading-secondary__main">
+          Tại đây bạn sẽ tìm thấy thêm thông tin về mình, những gì mình làm và danh sách các kỹ năng hiện tại.
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              Tui là ai?
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                MinhOmachii, tên thật là Cao Nguyễn Gia Lập. Sinh ngày 22.08.2010 tại thành phố Cần Thơ, một trong những địa danh nổi tiếng ở khu vực đồng bằng Sông Cửu Long.
+              </span>
+              <span>
+                Viết code phát triển bot discord, lập trình website và biên tập video là những gì mình đang làm hiện tại
+                Mình đã bắt đầu làm biên tập video từ tháng 8/2022 và bắt đầu học lập trình vào tháng 4/2024.
+                
+              </span>
+            </p>
+            <button class="btn btn-theme about__btn-theme">Những kĩ lăng của tui</button>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              Kĩ năng của tui
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">HTML - 6/10</li>
+              <li class="about__skill">CSS - 4/10</li>
+              <li class="about__skill">Javascript - 2/10</li>
+              <li class="about__skill">Node.js - 2/10</li>
+              <li class="about__skill">Capcut - 8/10</li>
+              <li class="about__skill">Premiere - 8,5/10</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-nodejs-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-git-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <img src="/assets/premiere-pro.png" width="50" height="50"></img>
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm">Những gì toi đã làm</span>
+        <span class="heading-secondary__main">
+          Tại đây bạn sẽ tìm thấy những gì mình đã làm:D
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/Không Có Tiêu Đề24_20241220184600.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Biên tập video
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Biên tập(edit) những video Valorant, Minecraft, Roblox, CS:GO, ...
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <span>
+                  Chất lượng 1080p 60fps.
+                </span>
+              </p>
+              <button class="btn btn-theme projects__btn-theme" onclick="window.location.href='bientap.html';">
+                Xem thêm
+              </button>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/Không Có Tiêu Đề24_20241220184957.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Bot Discord MineMaster
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  MineMaster là một phần mềm trả lời tự động (Bot) được khởi chạy trên nền tảng nhắn tin hàng đầu thế giới có tên là Discord. 
+                  MineMaster cung cấp một loạt tính năng như: Hệ thống economy, tạo voice chat tự động (như VoiceMaster), lệnh quản lý dành cho admin.
+                </span>
+                <!-- <br />
+                  <br /> -->
+              </p>
+              <button class="btn btn-theme projects__btn-theme" onclick="window.location.href='discordbot.html';">
+                Xem thêm
+              </button>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Liên hệ</span>
+        <span class="heading-secondary__main">
+          Bạn có thề liên hệ với mình qua các thông tin sau, khi bạn gửi tin nhắn mình sẽ cố gắng trả lời nhanh nhất:D
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="contact__form-cont">
+          <form class="contact__form">
+            <div class="contact__form-field">
+                 <span class="heading-secondary__main">
+          Email : lapminerofficial@gmail.com
+          <br />
+          Discord : minhomachi_ (Discord server : <a href="https://bit.ly/minhomachi">https://bit.ly/minhomachi)</a>
+          <br />
+          Zalo : 0903618454
+          <br />
+        </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          <!-- If you can give me some credits or shoutout here by linking to my website, then that will help me a lot :) -->
+          <script>document.write(new Date().getFullYear())</script>. Made by
+          <a target="_blank" href="https://rammaheshwari.com">MinhOmachii</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
